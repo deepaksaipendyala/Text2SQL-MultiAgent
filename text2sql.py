@@ -56,26 +56,26 @@ def bootstrap_db() -> sqlite3.Connection:
           skill TEXT
         );
         INSERT INTO candidates VALUES
-          (1,'Alice','alice@mail.com','NY'),
-          (2,'Bob','bob@mail.com','SF'),
-          (3,'Cara','cara@mail.com','NY'),
-          (4,'David','david@mail.com','NY');
+          (1,'alice','alice@mail.com','ny'),
+          (2,'bob','bob@mail.com','sf'),
+          (3,'cara','cara@mail.com','ny'),
+          (4,'david','david@mail.com','ny');
         INSERT INTO applications VALUES
-          (1,1,'Data Analyst','pending'),
-          (2,2,'ML Engineer','accepted'),
-          (3,3,'Data Scientist','rejected'),
-          (4,4,'Senior Data Scientist','pending');
+          (1,1,'data analyst','pending'),
+          (2,2,'ml Engineer','accepted'),
+          (3,3,'data scientist','rejected'),
+          (4,4,'senior data scientist','pending');
         INSERT INTO experience VALUES
-          (1,1,'CompanyA','Analyst',2),
-          (2,2,'CompanyB','Engineer',3),
-          (3,3,'CompanyC','Scientist',4),
-          (4,4,'CompanyD','Sr Data Scientist',6);
+          (1,1,'companyA','analyst',2),
+          (2,2,'companyB','engineer',3),
+          (3,3,'companyC','data scientist',4),
+          (4,4,'companyD','senior data scientist',6);
         INSERT INTO skills VALUES
-          (1,1,'Excel'),
-          (2,2,'PyTorch'),
-          (3,3,'SQL'),
-          (4,4,'Python'),
-          (5,4,'SQL');
+          (1,1,'excel'),
+          (2,2,'pytorch'),
+          (3,3,'sql'),
+          (4,4,'python'),
+          (5,4,'sql');
         """
     )
     return conn

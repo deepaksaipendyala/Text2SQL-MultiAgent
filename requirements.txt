@@ -1,0 +1,7 @@
+langchain==0.1.16
+langgraph==0.0.24
+langchain-openai
+python-dotenv
+duckdb
+rich
+llama-cpp-python

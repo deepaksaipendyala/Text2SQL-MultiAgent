@@ -33,6 +33,11 @@ streamlit run app.py
 
 Enter a question such as `List candidates with more than 3 years of experience in NY` and observe the generated SQL and returned rows.
 
+## Demo
+
+![V1: Text2sql Multiagent](img/demo.png)
+
+
 ## Repository Layout
 
 ```
